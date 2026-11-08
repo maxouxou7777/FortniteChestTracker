@@ -1,6 +1,7 @@
 # Fortnite Chest Tracker
 
 A simple and lightweight chest counter for Fortnite. Track your chest openings with a customizable hotkey.
+This tool was created mainly with AI
 
 ## Features
 
