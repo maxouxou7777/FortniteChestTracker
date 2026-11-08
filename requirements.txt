@@ -1,0 +1,4 @@
+customtkinter==6.0.0
+pynput==1.8.2
+pystray==0.19.5
+pillow==12.1.1
