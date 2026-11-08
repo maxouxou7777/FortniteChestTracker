@@ -271,7 +271,7 @@ class ChestTrackerApp(ctk.CTk):
         listener.start()
 
     def _check_hold(self):
-        hold_duration = 0.8
+        hold_duration = 0.6
         while not self.stop_timer and self.press_time is not None:
             if time.time() - self.press_time >= hold_duration:
                 if not self.is_held_counted:

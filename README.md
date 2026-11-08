@@ -81,7 +81,7 @@ MIT License - feel free to use, modify, and distribute.
 
 <div align="center">
 
-Made with ❤️ for the Fortnite community
+Made with AI for the Fortnite community
 
 [GitHub](https://github.com/maxouxou7777/FortniteChestTracker) • [Releases](https://github.com/maxouxou7777/FortniteChestTracker/releases) • [Issues](https://github.com/maxouxou7777/FortniteChestTracker/issues)
 
