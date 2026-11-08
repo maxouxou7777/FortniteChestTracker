@@ -1,8 +1,29 @@
+<div align="center">
+
 # Fortnite Chest Tracker
+
+<img src="icon.ico" alt="Chest Tracker Icon" width="128">
 
 A simple and lightweight chest counter for Fortnite. Track your chest openings with a customizable hotkey.
 
-This tool was created mainly with AI
+</div>
+
+---
+
+## Security Notice
+
+**⚠️ Antivirus Warning**
+
+Some antivirus software may flag this executable as a threat. This is a **false positive** because:
+
+- The code is **100% open source** - you can review every line
+- The executable is built automatically by **GitHub Actions** on their servers
+- No third-party binaries or obfuscated code are included
+- You can build it yourself from source (see Building section below)
+
+If you're concerned, always verify the source code and build it yourself.
+
+---
 
 ## Features
 
@@ -14,7 +35,13 @@ This tool was created mainly with AI
 
 ## Download
 
+<div align="center">
+
 Get the latest release (Windows executable) from the [Releases](https://github.com/maxouxou7777/FortniteChestTracker/releases) page.
+
+[![Download Latest](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github)](https://github.com/maxouxou7777/FortniteChestTracker/releases/latest)
+
+</div>
 
 ## Usage
 
@@ -48,4 +75,14 @@ python -m PyInstaller --noconfirm --onefile --windowed --uac-admin --icon icon.i
 
 ## License
 
-MIT
+MIT License - feel free to use, modify, and distribute.
+
+---
+
+<div align="center">
+
+Made with ❤️ for the Fortnite community
+
+[GitHub](https://github.com/maxouxou7777/FortniteChestTracker) • [Releases](https://github.com/maxouxou7777/FortniteChestTracker/releases) • [Issues](https://github.com/maxouxou7777/FortniteChestTracker/issues)
+
+</div>
