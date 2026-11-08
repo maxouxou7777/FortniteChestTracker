@@ -12,6 +12,8 @@ from PIL import Image, ImageDraw
 ctk.set_appearance_mode("Dark")
 ctk.set_default_color_theme("dark-blue")
 
+VERSION = "1.0.1"
+
 if getattr(sys, "frozen", False):
     APP_DIR = os.path.join(os.environ.get("APPDATA", os.path.expanduser("~")), "FortniteChestTracker")
 else:
@@ -170,9 +172,13 @@ class ChestTrackerApp(ctk.CTk):
 
         self.key_label = ctk.CTkLabel(footer_frame, text=self.t("key_label"), text_color="#B0A4A6", font=("Segoe UI", 11))
         self.key_label.pack(anchor="w")
-        
+
         self.key_badge = ctk.CTkLabel(footer_frame, text=self.settings["key"].upper(), fg_color="#1E0004", text_color="#FFC92C", font=("Segoe UI", 13, "bold"), corner_radius=6, width=50, height=30)
         self.key_badge.pack(anchor="w", pady=5)
+
+        # Version indicator (bottom right)
+        version_lbl = ctk.CTkLabel(footer_frame, text=f"v{VERSION}", text_color="#5A4E50", font=("Segoe UI", 9))
+        version_lbl.pack(side="right", pady=5)
 
     def open_settings(self, is_first=False):
         win = ctk.CTkToplevel(self)
